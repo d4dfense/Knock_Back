@@ -11,7 +11,9 @@ their own probe to gather information on where an incoming Nmap scan originated.
 
  - Monitor a host against incoming Nmap scans and launch a counter-scan.
  - Degrade peformance of an incoming Nmap scan, throughout the lifetime of our counter-scan or until instructed to stop.
- - Run on either Linux or Windows based host machines.
+ - Run on either Linux or Windows* based host machine.
+<p></p>
+ *Windows Machines can detect Nmap scans and downgrade performance, yet have a known issue for attacker OS identification.
 <p></p><br>
 
 ## Requirements
