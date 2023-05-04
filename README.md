@@ -63,4 +63,3 @@ At any time, close the Knock Back tool with a CTRL-C command input to the termin
 - Knock Back monitors against certain known Nmap commands. However, advanced Nmap users may create more stealthy, less noisy scans. 
 Knock Back is not guaranteed to detect all possible Nmap scans. See alternative tools, such as OsChameleon, for good examples of
 further ways to detect reconnaissance tools such as Nmap at the network packet layer.
-- Attribution is not always straightforward. Improvements to the tool might include a traceroute capability to complement Nmap.
